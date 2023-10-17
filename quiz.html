@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Compiled and minified MaterializeCSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+  <title>Quiz | Dr.Menti</title>
+</head>
+
+<body>
+  <div class="bg-img1">
+    <div class="container">
+      <div class="header">
+        <div class="header-txt">
+          <a href="index.html" rel="noopener noreferrer">
+            Dr.Menti
+          </a>
+        </div>
+      </div>
+      <div class="container-quiz">
+        <div id="content">
+        </div>
+        <!-- Modal -->
+        <div id="modal1 question-select-modal" class="modal">
+          <div class="modal-content">
+            <h4>How are you <span>feeling</span> ?</h4>
+            <p>Select from the options given below and press 'Start'.</p>
+            <!-- <hr /> -->
+            <!-- <div class="category-select center-align">
+              <h5>Categories</h5>
+            </div> -->
+            <div class="categories">
+              <form action="#">
+                <label>
+                  <input type="checkbox" id="depression" />
+                  <span>Depression</span>
+                </label>
+                <label>
+                  <input type="checkbox" id="anxiety" />
+                  <span>Anxiety</span>
+                </label>
+                <label>
+                  <input type="checkbox" id="ptsd" />
+                  <span>Post Traumatic Stress Disorder (PTSD)</span>
+                </label>
+                <label>
+                  <input type="checkbox" id="sch" />
+                  <span>Schizophrenia</span>
+                </label>
+                <label>
+                  <input type="checkbox" id="addiction" />
+                  <span>Addiction</span>
+                </label>
+              </form>
+            </div>
+            <div class="btns">
+              <a id="questionCancelButton" class="btn btn-danger" href="./index.html">Cancel</a>
+              <a id="questionSubmitButton" class="quiz-begin btn btn-warning">Start</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Link Necessary Scripts for Semantic-UI -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Link our scripts here -->
+  <script src="assets/js/quiz-dev.js"></script>
+  <script src="assets/js/quiz.js"></script>
+</body>
+
+</html>
